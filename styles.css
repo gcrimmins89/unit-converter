@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #1F2937;
+    width: 550px;
+    height: 729px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #6943FF;
+    width: 34.375rem;
+    height: 17.812rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0;
+}
+.content {
+    font-weight: 600;
+    font-size: 28px;
+    color: #fff;
+}
+
+input {
+    width: 117px;
+    height: 83px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #CCC1FF;
+    vertical-align: middle;
+    font-size: 58px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    line-height: 83px;
+    background-color: #6943FF;
+}
+
+input:focus {
+    background-color: #7351f9;
+}
+
+
+button {
+    width: 117px;
+    height: 42px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 0px none;
+    line-height: 24px;
+    color: #3d3d3d;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+button:hover {
+    background-color: #fcf1f1;
+}
+
+button:active {
+    background-color: #dfd7ff;
+}
+
+.calcs__container {
+    background-color: #1F2937;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    gap: 20px;
+    height: auto;
+}
+
+.length,
+ .volume,
+ .mass {
+    background-color: #273549;
+    width: 450px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+    
+    
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    color: #CCC1FF;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+p {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+}
